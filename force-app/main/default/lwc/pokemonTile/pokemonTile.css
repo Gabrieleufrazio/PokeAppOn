@@ -1,0 +1,27 @@
+@keyframes texto {
+  0% {
+    color: #5BA415;
+  }
+  25% {
+    color: #7ed0d9;
+  }
+  50% {
+    color: #f2a81d;
+  }
+  75% {
+    color: #5BA415;
+  }
+  100% {
+    color: #7ed0d9;
+  }
+}
+
+.slds-media__body {
+  font-weight: lighter;
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.slds-media__body:hover{
+    color: #FD4977;
+}
